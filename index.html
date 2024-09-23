@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>That's Different - Hospital Adventure</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+        #ui { position: absolute; top: 10px; left: 10px; color: white; }
+    </style>
+</head>
+<body>
+
+    <div id="ui">
+        <h1>That's Different</h1>
+        <p id="floorDisplay">Current Floor: 1</p>
+        <button id="forwardBtn">Go Forward</button>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="game.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
